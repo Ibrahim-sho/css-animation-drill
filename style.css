@@ -1,0 +1,79 @@
+#stage {
+
+    background-image: url(images/css_animation_exercise_4.png);
+    height: 600px;
+    width: 600px;
+}
+
+#hero {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 73px;
+    width: 73px;
+    border: dashed 1px rgb(255, 0, 0);
+    animation: 17s anim linear forwards;
+
+}
+
+@keyframes anim {
+
+    0% {
+        top: 0px;
+        left: 0px;
+
+    }
+
+    29.41% {
+
+    top: 0px;
+    left: 480px;
+    }
+
+    41.17% { 
+
+        top: 180px;
+        left: 480px;
+        transform: rotate(0deg);
+
+    
+    }
+
+    44.11%{
+        top: 180px;
+        left: 250px;
+        transform: rotate(45deg);
+
+    }
+
+    55.87%{
+        top: 180px;
+        left: 250px;
+        transform: rotate(45deg);
+        border: dashed 1px rgb(255, 0, 0);
+    }
+
+    70.58%{
+        top: 185px;
+        left: 0px;
+        transform: rotate(90deg);
+        border: dashed 1px rgb(66, 66, 194);
+        height: 73px;
+        width: 73px;
+        border-radius: 0%;
+        background: transparent;
+    }
+
+    100%{
+
+        top: 421px;
+        left: 422px;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        background: radial-gradient(#fbda61,#f76b1c);
+        transform: rotate(90deg);
+        border: none;
+
+    }
+}
