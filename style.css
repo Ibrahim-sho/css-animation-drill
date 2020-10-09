@@ -1,0 +1,14 @@
+#stage {
+
+    background-image: url(images/css_animation_exercise_4.png);
+    height: 600px;
+    width: 600px;
+}
+
+#hero {
+
+    height: 73px;
+    width: 73px;
+    border: dashed 1px red;
+
+}
